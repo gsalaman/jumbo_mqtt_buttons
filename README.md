@@ -13,3 +13,9 @@ Steps:
 * test app to for wrapper
 * webpage to generate 8x8 buttons
 
+# 1st cut protocol
+| Topic | Payload | Notes |
+|-------|---------|-------|
+| jumbo_press | x,y | x & y are 0-7 |
+
+
