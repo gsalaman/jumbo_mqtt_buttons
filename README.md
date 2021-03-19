@@ -18,4 +18,9 @@ Steps:
 |-------|---------|-------|
 | jumbo_press | x,y | x & y are 0-7 |
 
+# Wrapper thoughts
+Want to present an interface as close to the button interface as possible.  Maybe "get_mqtt_buttons.read()" rather than "get_buttons.read()"?  Client would  have to change their include and their button statement...
 
+Only one client, so wrapper is simpler than "gamepad wrapper".  Still have input queue, but no "player registration".
+
+Quick proto in ii21?
